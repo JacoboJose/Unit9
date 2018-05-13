@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>
+   Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.<strong onmouseover="redcolor(this)" onmouseout="blackcolor(this)">This book is a treatise on the theory of ethics, very popular during the Renaissance. </strong>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.."
+</p>
+
+<script>
+
+   wordItems = document.getElementsByTagName('strong'); //take by tag
+   function redcolor(wordItems) { //mouseover function for change the text color to red
+       wordItems.style.color = "red";
+   }
+
+   function blackcolor(wordItems) { //mouseoutfunction for change the text color to black
+       wordItems.style.color = "black";
+   }
+</script>
+
+</body>
+</html>
+
